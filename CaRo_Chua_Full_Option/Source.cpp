@@ -259,7 +259,7 @@ short TestBoard(int _X, int _Y) {
 		bool draw = true;
 		for (int i = 0; i < BOARD_SIZE; i++) {
 			for (int j = 0; j < BOARD_SIZE; j++) {
-				if (_A[i][j].c == 0) {   // su dung _A[i][j].c la giong thay, con giong MAIN_1_FILE la _pArr[i][j].setCheck() hay gi aws!
+				if (_A[i][j].c == 0) {   
 					draw = false; break;
 				}
 			}
