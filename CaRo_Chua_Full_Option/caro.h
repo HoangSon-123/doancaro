@@ -6,7 +6,6 @@
 #include <cstdlib>
 #include <fstream>
 #include <vector>
-#include <vector>
 #include <mmsystem.h>
 //am thanh
 #pragma comment(lib, "winmm.lib")
